@@ -1,26 +1,52 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="landing-app"> 
+    <HeaderNav/>
+    <BannerHome/>
+    <LasNewsDiv/>
+    <ContainerFeed/>
+    <FooterCredits/>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HeaderNav from './components/HeaderNav.vue'
+import BannerHome from './components/BannerHome.vue'
+import LasNewsDiv from './components/LasNewsDiv.vue'
+import ContainerFeed from './components/ContainerFeed.vue'
+import FooterCredits from './components/FooterCredits.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HeaderNav,
+    BannerHome,
+    LasNewsDiv,
+    ContainerFeed,
+    FooterCredits
   }
 }
+
 </script>
 
-<style>
+<style>  /*não vou alterar n*/
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+
+body {
+  background-image: url('./assets/background.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.landing-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
 }
 </style>

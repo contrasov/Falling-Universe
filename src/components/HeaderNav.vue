@@ -24,7 +24,7 @@
 
 <style>
 .app-header {
-    background-color: #1F222A;
+    background-color: #131414;
     display: inline-flex;
     padding: 11px 24px;
     align-items: center;

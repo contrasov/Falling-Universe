@@ -14,10 +14,11 @@
 </script>
 
 <style>
+
 .banner-app {
     width: 950px;
     height: 300px;
-    background-color: #FC4D35;
+    background-image: url('@/assets/banner-image.jpg');;
 }
 
 .card-banner {
@@ -26,7 +27,7 @@
     margin-top: 17px;
     width: 274px;
     height: 266px;
-    background-color: #2A2E37DE;
+    background-color: #131414;
     text-align: left;
 }
 
@@ -39,7 +40,7 @@ h2 {
 
 p {
     color: white;
-    line-height: 1.2;
+    font-size: 15px;
     margin-top: -10px;
     /* GAMBIARRA */
     padding-left: 20px;
@@ -48,10 +49,11 @@ p {
 }
 
 button {
-    margin-top: 16px;
+    margin-top: 32px;
     cursor: pointer;
     border: 1px transparent;
-    padding: 10px 20px;
+    border-radius: 2px;
+    padding: 8px 30px;
     font-weight: 700;
     margin-left: 20px;
 }

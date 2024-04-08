@@ -29,14 +29,14 @@
 
 
 #left-div {
-    background-color: #1F222A;
+    background-color: #101010;
     width: 80px;
     height: 5px;
     margin-left: 0px; /*ngm viu..*/
 } 
 
 #right-div {
-    background-color: #1F222A;
+    background-color: #101010;
     width: 670px;
     height: 5px;
 }

@@ -1,6 +1,6 @@
 <template>
     <div class="credits">
-        <p>Copyright © Álvaro Santos™ 2024. All rights reserved. (se tiver...) 💜</p>
+        <p>Álvaro Santos™ 2024 - (feito com amor 💜...)</p>
     </div>
 </template>
 

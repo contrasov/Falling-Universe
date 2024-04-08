@@ -38,7 +38,7 @@ export default {
 }
 
 body {
-  background-image: url('./assets/background.svg');
+  background-image: url('./assets/background-2.svg');
   background-repeat: no-repeat;
   background-size: cover;
 }
